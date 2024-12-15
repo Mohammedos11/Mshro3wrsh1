@@ -12,7 +12,7 @@ public class Repository {
     userDao userDaoo ;
 
     public Repository (Application application){
-        MyRoomDatabase dp = MyRoomDatabase.getDatabase(application);
+        MyRoomDatabase dp = MyRoomDatabase.getInstance(application);
         coursesDao = dp.coursesDao();
         userDaoo = dp.userDao();
         teacherDao =dp.teacherDao();

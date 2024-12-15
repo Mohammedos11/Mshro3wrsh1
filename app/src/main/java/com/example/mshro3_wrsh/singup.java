@@ -49,7 +49,7 @@ public class singup extends AppCompatActivity {
                 finish();
             }
         });
-        room =MyRoomDatabase.getDatabase(this);
+        room =MyRoomDatabase.getInstance(this);
         SingUp_ed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
