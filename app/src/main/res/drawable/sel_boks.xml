@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- حالة الاختيار (مفعل) -->
+    <item android:drawable="@drawable/v_boks" android:state_checked="true" />
+    <!-- حالة عدم الاختيار (غير مفعل) -->
+    <item android:drawable="@drawable/v_boks2" android:state_checked="false" >
+
+    </item>
+</selector>
