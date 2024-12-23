@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Mshro3 _wrsh"
+rootProject.name = "E-Learning Online Course"
 include ':app'

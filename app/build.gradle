@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.mshro3_wrsh'
+    namespace 'com.example.e_learningonlinecourse'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.mshro3_wrsh"
+        applicationId "com.example.e_learningonlinecourse"
         minSdk 24
         targetSdk 34
         versionCode 1
@@ -29,8 +29,8 @@ android {
 }
 
 dependencies {
-
-
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.core:core-ktx:1.10.0'
     // Room components
     implementation "androidx.room:room-runtime:$rootProject.roomVersion"
     annotationProcessor "androidx.room:room-compiler:$rootProject.roomVersion"
@@ -44,6 +44,8 @@ dependencies {
     // UI
     implementation "androidx.constraintlayout:constraintlayout:$rootProject.constraintLayoutVersion"
     implementation "com.google.android.material:material:$rootProject.materialVersion"
+
+
 
     implementation libs.appcompat
     implementation libs.material
